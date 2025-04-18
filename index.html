@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tokenizer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/logo.png">
+  </head>
+  <body>
+    <header>
+      <h1>Tokenizer</h1>
+    </header>
+
+    <main>
+      <div class="vocabulary">
+        <h2>Vocabulary Input</h2>
+
+        <div class="vocab-header">
+          <label for="vocab">Vocabulary Text:</label>
+          <button type="button" onclick="generateVocab()">
+            Generate sample vocabulary
+          </button>
+          <p>Vocabulary Size: <span id="vocabSize">0</span></p>
+        </div>
+
+        <textarea
+          name="vocabulary"
+          id="vocab"
+          rows="5"
+          cols="50"
+          placeholder="Enter vocabulary text here..."
+        ></textarea>
+      </div>
+
+
+      <div class="encoder">
+        <div class="encode">
+          <h2>Enter text to encode</h2>
+          <textarea
+            name="encoding"
+            id="encode"
+            rows="5"
+            cols="50"
+            placeholder="Enter Text here..."
+          ></textarea>
+        </div>
+
+        <div class="encode output">
+            <h2>Encoded: </h2>
+            <p class="encoded-string" id="encoded-output"></p>
+        </div>
+      </div>
+
+      <div class="decoder">
+        <div class="decode input">
+
+            <h2>Enter tokens to decode</h2>
+            <textarea
+            name="decoding"
+            id="decode"
+            rows="5"
+            cols="50"
+            placeholder="Enter Tokens here..."
+            ></textarea>
+        </div>
+
+        <div class="decode output">
+            <h2>Decoded: </h2>
+            <p class="decoded-string" id="decoded-output"></p>
+        </div>
+      </div>
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
