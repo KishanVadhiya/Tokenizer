@@ -21,12 +21,12 @@ Just clone the repository and open index.html file to run locally .
 <br>
 Or just directly visit [Tokenizer](kishanvadhiya.github.io/Tokenizer/) .
 
-##Demo 
+## Demo 
 - Vocabulory definition
-<img alt="Screenshot1"/>
+<img src="images/ss1.png" alt="Screenshot1"/>
 
 - Encode and decode tokens
-- <img alt="Screenshot2"/>
+- <img src="images/ss2.png" alt="Screenshot2"/>
 
 ## Contributing
 
