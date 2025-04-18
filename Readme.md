@@ -1,35 +1,32 @@
 # Tokenizer
 
-![Logo](images/logo.png){ width=10% }
+<img src="images/logo.png" alt="logo" width=100 />
 
-A simple and efficient tokenizer library for processing text data in various formats.
-
-A simple and efficient tokenizer library for processing text data in various formats.
+A simple tokenizer visualizer for processing text data into tokens to illustrate tokenization process in AI models for education purpose.
 
 ## Features
 
-- Tokenizes text into words, sentences, or custom patterns.
-- Supports multiple languages.
-- Lightweight and easy to integrate.
-- Customizable tokenization rules.
+- Tokenizes text into words.
+- Add your own vocabulory.
+- Easy to understand.
+- Can generate a sample vocabulary for educational purpose.
+- Encoding and Decoding Implementation
 
 ## Installation
 
-```bash
-pip install tokenizer
-```
+No need for any installation as it is simple website.
 
 ## Usage
+Just clone the repository and open index.html file to run locally .
+<br>
+Or just directly visit [Tokenizer](kishanvadhiya.github.io/Tokenizer/) .
 
-```python
-from tokenizer import Tokenizer
+##Demo 
+- Vocabulory definition
+<img alt="Screenshot1"/>
 
-text = "Hello, world! Welcome to the Tokenizer library."
-tokenizer = Tokenizer()
-tokens = tokenizer.tokenize(text)
-
-print(tokens)
-```
+- Encode and decode tokens
+- <img alt="Screenshot2"/>
 
 ## Contributing
 
