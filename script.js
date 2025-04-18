@@ -10005,8 +10005,7 @@ zope
 zshops
 zu
 zum
-zus
-`;
+zus`;
 
 const generateVocab = ()=>{
     vocabInput.value=vocabString;
