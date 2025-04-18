@@ -19,7 +19,7 @@ No need for any installation as it is simple website.
 ## Usage
 Just clone the repository and open index.html file to run locally .
 <br>
-Or just directly visit [Tokenizer](kishanvadhiya.github.io/Tokenizer/) .
+Or just directly visit [Tokenizer](https://kishanvadhiya.github.io/Tokenizer) .
 
 ## Demo 
 - Vocabulory definition
