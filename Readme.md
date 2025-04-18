@@ -25,8 +25,10 @@ Or just directly visit [Tokenizer](kishanvadhiya.github.io/Tokenizer/) .
 - Vocabulory definition
 <img src="images/ss1.png" alt="Screenshot1"/>
 
+<br>
+
 - Encode and decode tokens
-- <img src="images/ss2.png" alt="Screenshot2"/>
+<img src="images/ss2.png" alt="Screenshot2"/>
 
 ## Contributing
 
